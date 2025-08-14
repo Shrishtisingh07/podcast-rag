@@ -1,4 +1,4 @@
- **🎙 Podcast RAG – AI-Powered Podcast Search & Answering**
+# **🎙 Podcast RAG – AI-Powered Podcast Search & Answering**
 
 Podcast RAG is a Python-based application that lets you **search across podcast transcripts** and get **AI-generated answers**.
 It works by:
