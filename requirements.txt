@@ -1,7 +1,6 @@
 torch
 faster-whisper
 sentence-transformers
-chromadb
 streamlit
 pydub
 numpy
@@ -9,4 +8,7 @@ tqdm
 rich
 openai
 python-dotenv
+streamlit
+chromadb==0.4.15
+
 
