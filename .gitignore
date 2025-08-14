@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.DS_Store
+Thumbs.db
+*.mp3
+*.wav
+data/vectorstore/
+data/transcripts/
+*.sqlite
+.ipynb_checkpoints/
