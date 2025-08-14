@@ -1,14 +1,13 @@
 from typing import List, Tuple
 from sentence_transformers import SentenceTransformer
+import chromadb
+from chromadb.config import Settings
+
 def retrieve(...):
-    import chromadb
-    from chromadb.config import Settings
-
     client = chromadb.Client(Settings(
-        persist_directory=None
+        persist_directory=None  # disable persistence for Streamlit Cloud
     ))
-    # rest of your retrieval code...
-
+    
 def get_collection(persist_dir: str = "vectorstore", collection_name: str = "podcasts"):
     client = chromadb.PersistentClient(path=persist_dir)
     return client.get_collection(collection_name)
