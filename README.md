@@ -7,7 +7,6 @@ It works by:
 2. **Retrieving** the most relevant parts when you ask a question.
 3. **Generating** a detailed, context-aware answer.
 
-
 ## 🧠 How It Works
 
 * **RAG** means **Retrieval-Augmented Generation**.
