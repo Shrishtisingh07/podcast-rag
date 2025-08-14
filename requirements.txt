@@ -9,8 +9,4 @@ tqdm
 rich
 openai
 python-dotenv
-# Optional (comment out if you don't need them)
-# pyannote.audio
-# rank-bm25
-# transformers
-# openai
+
