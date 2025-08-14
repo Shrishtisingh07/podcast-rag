@@ -7,13 +7,13 @@ It works by:
 2. **Retrieving** the most relevant parts when you ask a question.
 3. **Generating** a detailed, context-aware answer.
 
-**🧠 How It Works**
+**How It Works**
 
 * **RAG** means **Retrieval-Augmented Generation**.
 * Instead of the AI guessing from scratch, it **first searches your podcast transcripts**, then uses that context to give better answers.
 
 
- **🚀 Step-by-Step Setup**
+ **Step-by-Step Setup**
 
 **1. Download the Project**
 
@@ -144,13 +144,6 @@ python app/main.py
 
 <img width="1919" height="976" alt="Screenshot 2025-08-14 174800" src="https://github.com/user-attachments/assets/7a0a6637-b5aa-4a19-8cb7-41e82ee05b71" />
 
-
-**💡 Tips**
-
-* You only need to **ingest** once, unless you add new transcripts.
-* If you change `.env`, restart your app.
-* Keep transcripts **clean and well-formatted** for best results.
-Alright — here’s the **final human-friendly README** for your **Podcast RAG** project with **Author** and **License** sections added.
 
 **👤 Author**
 
