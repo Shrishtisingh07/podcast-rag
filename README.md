@@ -1,3 +1,5 @@
+<img width="1919" height="976" alt="Screenshot 2025-08-14 174800" src="https://github.com/user-attachments/assets/b0f8cb67-72a9-4ea7-ac4a-fb8a79a5e3f0" />
+<img width="1918" height="971" alt="Screenshot 2025-08-14 174717" src="https://github.com/user-attachments/assets/ce6dbd4b-2eed-49bc-a8c1-1216eb97b545" />
 # **🎙 Podcast RAG – AI-Powered Podcast Search & Answering**
 
 Podcast RAG is a Python-based application that lets you **search across podcast transcripts** and get **AI-generated answers**.
@@ -138,6 +140,13 @@ python rag/retrieve.py --query "Explain blockchain from episode 5"
 python app/main.py
 ```
 
+<img width="1918" height="964" alt="Screenshot 2025-08-14 175048" src="https://github.com/user-attachments/assets/5545d1e4-a1bb-4a49-95ca-6e385651b890" />
+
+<img width="1918" height="964" alt="Screenshot 2025-08-14 175048" src="https://github.com/user-attachments/assets/364967f4-a47c-456e-84db-94255d0af6a8" />
+
+<img width="1919" height="976" alt="Screenshot 2025-08-14 174800" src="https://github.com/user-attachments/assets/7a0a6637-b5aa-4a19-8cb7-41e82ee05b71" />
+
+
 **💡 Tips**
 
 * You only need to **ingest** once, unless you add new transcripts.
@@ -150,11 +159,6 @@ Alright — here’s the **final human-friendly README** for your **Podcast RAG*
 **Shrishti Singh**
 
 
-
-**📜 License**
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-You’re free to use, modify, and distribute this project, provided you keep the license notice.
 
 
 
