@@ -1,10 +1,3 @@
-Got it ✅
-You want a **human-friendly README** — not just commands, but explanations for *what* each step does and *why* it’s needed, so anyone can follow it without confusion.
-
-Here’s the rewritten **clear and beginner-friendly README** for your **Podcast RAG** project:
-
----
-
 # 🎙 Podcast RAG – AI-Powered Podcast Search & Answering
 
 Podcast RAG is a Python-based application that lets you **search across podcast transcripts** and get **AI-generated answers**.
@@ -14,14 +7,13 @@ It works by:
 2. **Retrieving** the most relevant parts when you ask a question.
 3. **Generating** a detailed, context-aware answer.
 
----
 
 ## 🧠 How It Works
 
 * **RAG** means **Retrieval-Augmented Generation**.
 * Instead of the AI guessing from scratch, it **first searches your podcast transcripts**, then uses that context to give better answers.
 
----
+
 
 ## 🚀 Step-by-Step Setup
 
@@ -36,7 +28,7 @@ cd podcast-rag-main
 
 This puts all project files on your computer.
 
----
+
 
 ### **2. Create a Virtual Environment**
 
@@ -58,7 +50,7 @@ source venv/bin/activate
 
 When it’s activated, your terminal will show `(venv)` at the start.
 
----
+
 
 ### **3. Install Required Libraries**
 
@@ -68,7 +60,7 @@ pip install -r requirements.txt
 
 This installs everything your project needs (like Chroma DB, LangChain, etc.).
 
----
+
 
 ### **4. Configure Environment Variables**
 
@@ -82,7 +74,6 @@ The app may need API keys or special settings.
    ```
 2. Open `.env` in a text editor and fill in your keys/settings.
 
----
 
 ### **5. Ingest Podcast Transcripts**
 
@@ -94,7 +85,6 @@ python rag/ingest.py --input data/raw --transcripts data/transcripts --collectio
 
 💡 Your `data/raw` and `data/transcripts` folders are already in the project — just make sure your transcript files are inside.
 
----
 
 ### **6. Search Your Podcasts**
 
@@ -109,7 +99,7 @@ The app will:
 1. Search your vector database for matching transcript parts.
 2. Show the most relevant results.
 
----
+
 
 ### **7. Run the Full Application**
 
@@ -121,7 +111,7 @@ python app/main.py
 
 This will start your custom interface or script logic for using RAG.
 
----
+
 
 ## 📂 Project Structure (Simple View)
 
@@ -152,17 +142,25 @@ python rag/retrieve.py --query "Explain blockchain from episode 5"
 python app/main.py
 ```
 
----
 
 ## 💡 Tips
 
 * You only need to **ingest** once, unless you add new transcripts.
 * If you change `.env`, restart your app.
 * Keep transcripts **clean and well-formatted** for best results.
+Alright — here’s the **final human-friendly README** for your **Podcast RAG** project with **Author** and **License** sections added.
 
----
+## 👤 Author
 
-If you want, I can now make this into a **beautifully formatted Word `.docx` guide** with headings, highlights, and even screenshots placeholders so it’s super readable for non-technical users.
-That way, you can hand it to anyone and they’ll be able to run your project.
+**Shrishti Singh**
 
-Do you want me to prepare that version?
+
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+You’re free to use, modify, and distribute this project, provided you keep the license notice.
+
+
+
+
