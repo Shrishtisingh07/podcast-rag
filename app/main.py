@@ -1,5 +1,6 @@
 import sys
 import os
+from rag.retrieve import retrieve
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # --- Imports ---
