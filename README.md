@@ -1,5 +1,3 @@
-<img width="1919" height="976" alt="Screenshot 2025-08-14 174800" src="https://github.com/user-attachments/assets/b0f8cb67-72a9-4ea7-ac4a-fb8a79a5e3f0" />
-<img width="1918" height="971" alt="Screenshot 2025-08-14 174717" src="https://github.com/user-attachments/assets/ce6dbd4b-2eed-49bc-a8c1-1216eb97b545" />
 # **🎙 Podcast RAG – AI-Powered Podcast Search & Answering**
 
 Podcast RAG is a Python-based application that lets you **search across podcast transcripts** and get **AI-generated answers**.
