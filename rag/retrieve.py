@@ -1,12 +1,14 @@
 from typing import List, Tuple
 from sentence_transformers import SentenceTransformer
-import chromadb
-from chromadb.config import Settings
+def retrieve(query, k=8, collection_name="podcasts", persist_dir=None):
+    import chromadb
+    from chromadb.config import Settings
 
-def retrieve(...):
-    client = chromadb.Client(Settings(
-        persist_directory=None  # disable persistence for Streamlit Cloud
-    ))
+    client = chromadb.Client(
+        Settings(
+            persist_directory=None  # disables persistence in Streamlit Cloud
+        )
+    )
     
 def get_collection(persist_dir: str = "vectorstore", collection_name: str = "podcasts"):
     client = chromadb.PersistentClient(path=persist_dir)
@@ -29,3 +31,4 @@ def retrieve(
     for _id, doc, meta in zip(res["ids"][0], res["documents"][0], res["metadatas"][0]):
         hits.append((_id, doc, meta))
     return hits
+ return []
