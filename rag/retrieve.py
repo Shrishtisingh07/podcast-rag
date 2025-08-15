@@ -1,5 +1,6 @@
 from typing import List, Tuple
 from sentence_transformers import SentenceTransformer
+import chromadb
 
 def get_collection(persist_dir: str = "vectorstore", collection_name: str = "podcasts"):
     client = chromadb.PersistentClient(path=persist_dir)
@@ -12,14 +13,6 @@ def retrieve(
     collection_name: str = "podcasts",
     embed_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
 ) -> List[Tuple[str, str, dict]]:
-    import chromadb
-    from chromadb.config import Settings
-
-    client = chromadb.Client(
-        Settings(
-            persist_directory=None  # disables persistence in Streamlit Cloud
-        )
-    )
     model = SentenceTransformer(embed_model_name)
     col = get_collection(persist_dir, collection_name)
 
@@ -30,4 +23,3 @@ def retrieve(
     for _id, doc, meta in zip(res["ids"][0], res["documents"][0], res["metadatas"][0]):
         hits.append((_id, doc, meta))
     return hits
- return []
