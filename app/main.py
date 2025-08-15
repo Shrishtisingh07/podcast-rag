@@ -5,7 +5,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import streamlit as st
 from rag.retrieve import retrieve
 from rag.generate import extractive_answer, abstractive_answer, format_timestamp
-
 # --- Streamlit Page Configuration ---
 st.set_page_config(page_title="🎧 Podcast RAG", layout="wide")
 
